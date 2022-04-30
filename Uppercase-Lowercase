@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    //create scanner
+    System.out.println("Sentence?");
+    //print question
+    String a = input.nextLine();
+    //ask user for input
+    System.out.println("");
+    //add empty line
+    System.out.println(a.toUpperCase());
+    //print uppercase
+    System.out.println(a.toLowerCase());
+    //print lowercase
+  }
+}
